@@ -6,7 +6,7 @@ Model = tf.keras.models.load_model('data/Model.h5',custom_objects={'KerasLayer':
 
 def predict(query):   
     prediction = Model.predict([query])
-    print(prediction)
+    prediction = 'Classified' if prediction[0] > 0.5 else 'Benign'
     return prediction
 
 
