@@ -1,7 +1,6 @@
 owner: adityaadyamk@gmail.com
 runtimeInfo:
-  capabilities:
-    - gpu=T4
+  capabilities: []
   mainFunction: predict
   mainFunctionArgs:
     - query:Any
