@@ -1,5 +1,6 @@
 import tensorflow as tf
 import tensorflow_hub as hub
+import tensorflow_text as text
 Model = tf.keras.models.load_model('data/Model.h5',custom_objects={'KerasLayer':hub.KerasLayer})
 
 
