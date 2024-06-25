@@ -1,6 +1,5 @@
 owner: adityaadyamk@gmail.com
 runtimeInfo:
-  capabilities: []
   mainFunction: predict
   mainFunctionArgs:
     - query:Any
