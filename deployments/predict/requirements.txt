@@ -1,3 +1,5 @@
 keras==2.15.0
 Pillow==10.3.0
 tensorflow==2.15.1
+tensorflow-text==2.15.*
+tf-models-official==2.15.*
