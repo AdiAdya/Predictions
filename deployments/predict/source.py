@@ -1,9 +1,6 @@
-import modelbit, sys
-from typing import *
-from tensorflow import keras
-
-
-Model = keras.models.load_model('data/Model.h5')
+import tensorflow as tf
+import tensorflow_hub as hub
+Model = tf.keras.models.load_model('my_model.h5',custom_objects={'KerasLayer':hub.KerasLayer})
 
 # main function
 def predict(query):   
