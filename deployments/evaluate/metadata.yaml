@@ -1,0 +1,7 @@
+owner: adityaadyamk@gmail.com
+runtimeInfo:
+  mainFunction: evaluate
+  mainFunctionArgs:
+    - query:Any
+  pythonVersion: '3.10'
+schemaVersion: 2
