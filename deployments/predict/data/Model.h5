@@ -1,11 +1,11 @@
 _: MBFileStub
 contentHash: sha1:099484d653ec1aae7e5d206f836b3d4ee621b910
-createdAt: 2024-06-25 12:27:06
+createdAt: 2024-06-25 12:31:14
 metadata:
   fileSize: 438168616
   object:
     class: Functional
-    description: <keras.src.engine.functional.Functional object at 0x7f0f0b54ccd0>
+    description: <keras.src.engine.functional.Functional object at 0x7f0eff8af130>
     module: keras.src.engine.functional
     package: keras==2.15.0
 schemaVersion: 1
